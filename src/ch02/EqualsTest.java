@@ -36,9 +36,9 @@ public class EqualsTest {
 		
 		/*
 		 * clone() 메서드는 객체 생성과 는 다르다.
-		 * 객체의 초기값이 아닌 현재상태(변경된부분있다면 적용됨)를 복사한다.
+		 * 객체의 초기값이 아닌 현재 상태를 복사한다.
 		 * clone() 메서드를 사용하려는 객체의 클래스는 반드시 명시적으로 
-		 * implements Cloneable 작성해야하며, clone() 메서드를 재정의 해야된다. 
+		 * implements Cloneable 을하며, clone() 메서드를 재정의 해야된다. 
 		 */
 		std1.setStudentName("모네");
 		Student copyStudent = (Student) std1.clone();
